@@ -1,0 +1,27 @@
+-- Típos de datos básicos de un campo de una tabla. --
+
+Problema:
+Un videoclub que alquila películas en video almacena la información de sus películas en una tabla
+ llamada "peliculas"; para cada película necesita los siguientes datos:
+ 
+ -nombre, cadena de caracteres de 20 de longitud,
+ -actor, cadena de caracteres de 20 de longitud,
+ -duración, valor numérico entero.
+ -cantidad de copias: valor entero.
+
+1- Elimine la tabla, si existe:
+
+2- Cree la tabla eligiendo el tipo de dato adecuado para cada campo:
+
+3- Vea la estructura de la tabla:
+
+4- Ingrese los siguientes registros:
+  
+  ('Mision imposible','Tom Cruise',120,3);
+  ('Mision imposible 2','Tom Cruise',180,2);
+  ('Mujer bonita','Julia R.',90,3);
+  ('Elsa y Fred','China Zorrilla',90,2);
+
+5- Muestre todos los registros:
+
+ 
