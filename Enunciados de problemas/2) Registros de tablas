@@ -1,0 +1,24 @@
+-- Carga de registros a una tabla y su recuperación (insert into - select) --
+
+Problema:
+
+Trabaje con la tabla "agenda".
+
+1- Elimine la tabla "agenda", si existe:
+  
+2- Cree una tabla llamada "agenda". Debe tener los campos nombre, domicio, telefono: 
+   
+3- Visualice las tablas existentes para verificar la creación de "agenda".
+  
+4- Visualice la estructura de la tabla "agenda".
+
+5- Ingrese los siguientes registros:
+
+  ('Alberto Mores','Colon 123','4234567');
+  ('Juan Torres','Avellaneda 135','4458787');
+
+6- Seleccione y mustre todos los registros de la tabla:
+ 
+7- Elimine la tabla "agenda", si existe:
+
+8- Intente eliminar la tabla nuevamente, sin especificar "si existe":
