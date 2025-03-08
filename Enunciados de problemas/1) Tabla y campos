@@ -1,0 +1,18 @@
+-- Creación de una tabla y mostrar sus campos (create table - show tables - describe - drop table) --
+
+Problema:
+A) Queremos almacenar los datos de nuestros amigos.
+1- Elimine la tabla "agenda" si existe:
+
+2- Cree una tabla llamada "agenda", debe tener los siguientes campos: 
+
+3- Intente crearla nuevamente.
+
+4- Visualice las tablas existentes.
+
+5- Visualice la estructura de la tabla "agenda".
+
+6- Elimine la tabla, si existe.
+
+7- Intente eliminar la tabla sin la cláusula if exists. 
+   Debe aparecer un mensaje de error cuando no existe la tabla.
