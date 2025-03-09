@@ -32,7 +32,7 @@ Cada archivo en la carpeta de resoluciones está numerado según el enunciado co
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/agustinmusanti/SQLchalennge-6.git
+   git clone https://github.com/agustinmusanti/SQLchallenge-6.git
    ```
 2. Explorar los enunciados dentro de la carpeta `Enunciados de problemas/`.
 3. Ejecutar las soluciones dentro de la carpeta `Resolución de problemas/` en un entorno MySQL.
