@@ -1,0 +1,30 @@
+Operadores Relacionales = <> < <= > >=
+
+Problema:
+
+Un comercio que vende artículos de computación registra los datos de sus artículos
+en una tabla con ese nombre.
+
+1- Elimine "articulos", si existe:
+
+2- Cree la tabla, que contenga codigo, nombre, descripcion, precio y cantidad:
+
+3- Vea la estructura de la tabla.
+
+4- Ingrese algunos registros:
+
+ (1,'impresora','Epson Stylus C45',400.80,20);
+ (2,'impresora','Epson Stylus C85',500,30);
+ (3,'monitor','Samsung 14',800,10);
+ (4,'teclado','ingles Biswal',100,50);
+ (5,'teclado','español Biswal',90,50);
+
+5- Seleccione todos los registros de la tabla.
+
+6- Muestre los datos de las impresoras.
+
+7- Seleccione los artículos cuyo precio sea mayor o igual a 500:
+
+8- Seleccione los artículos cuya cantidad sea menor a 30:
+
+9- Selecciones el nombre y descripción de los artículos que no cuesten $100:
