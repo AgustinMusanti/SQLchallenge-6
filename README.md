@@ -19,8 +19,8 @@ El desafío abarca más de 80 problemas de SQL, organizados en distintos niveles
 
 El repositorio está organizado en las siguientes carpetas:
 
-- ``: Contiene los enunciados de cada problema en formato `.txt`.
-- ``: Contiene los archivos `.sql` con la solución a cada problema.
+- `Enunciados de problemas`: Contiene los enunciados de cada problema en formato `.txt`.
+- `Resolución de problemas`: Contiene los archivos `.sql` con la solución a cada problema.
 
 Cada archivo en la carpeta de resoluciones está numerado según el enunciado correspondiente para facilitar la identificación y el seguimiento de las soluciones.
 
@@ -32,7 +32,7 @@ Cada archivo en la carpeta de resoluciones está numerado según el enunciado co
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
+   git clone https://github.com/agustinmusanti/SQLchalennge-6.git
    ```
 2. Explorar los enunciados dentro de la carpeta `Enunciados de problemas/`.
 3. Ejecutar las soluciones dentro de la carpeta `Resolución de problemas/` en un entorno MySQL.
@@ -41,7 +41,7 @@ Cada archivo en la carpeta de resoluciones está numerado según el enunciado co
 
 Si quieres aprender más sobre SQL, puedes visitar el canal de YouTube de **Diego Moisset De Espanes** para seguir sus clases y desafíos.
 
-📌 [Canal de YouTube de Diego Moisset](https://www.youtube.com/channel/UC3XjjFZKwUth0PiIuv2H3Jw)
+📌 [Canal de YouTube de Diego Moisset](https://www.youtube.com/@diegomoissetdeespanes)
 
 ## 📩 Contribuciones
 
