@@ -1,0 +1,25 @@
+Modificación de registros de una tabla (update)
+
+Problema:
+
+Trabaje con la tabla "agenda" que almacena los datos de sus amigos.
+
+1- Elimine la tabla si existe.
+
+2- Cree la tabla con los campos de apellido, nombre, domicilio y telefono:
+
+3- Visualice la estructura de la tabla "agenda".
+
+4- Ingrese los siguientes registros:
+
+ Mores,Alberto,Colon 123,4234567,
+ Torres,Juan,Avellaneda 135,4458787,
+ Lopez,Mariana,Urquiza 333,4545454,
+ Lopez,Jose,Urquiza 333,4545454,
+ Peralta,Susana,Gral. Paz 1234,4123456.
+
+5- Modifique el registro cuyo nombre sea "Juan" por "Juan Jose":
+
+6- Actualice los registros cuyo número telefónico sea igual a '4545454' por '4445566':
+
+7- Actualice los registros que tengan en el campo "nombre" el valor "Juan" por "Juan Jose" 
