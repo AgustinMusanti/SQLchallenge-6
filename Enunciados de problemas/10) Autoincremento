@@ -1,0 +1,29 @@
+Campo entero con autoincremento.
+
+Problema:
+
+Una farmacia guarda información referente a sus medicamentos en una tabla 
+llamada "medicamentos".
+
+1- Elimine la tabla,si existe:
+
+2- Cree la tabla con los siguientes datos: codigo (con primary key), nombre, laboratorio, precio y cantidad.
+
+3- Visualice la estructura de la tabla "medicamentos".
+
+4- Ingrese los siguientes registros:
+
+('Sertal','Roche',5.2,100);
+('Buscapina','Roche',4.10,200);
+('Amoxidal 500','Bayer',15.60,100);
+
+5- Verifique que el campo "código" generó los valores de modo automático:
+
+6- Intente ingresar un registro con un valor de clave primaria repetido.
+
+7- Ingrese un registro con un valor de clave primaria no repetido salteando la secuencia:
+
+8- Ingrese el siguiente registro:
+
+ INSERT INTO medicamentos (nombre, laboratorio,precio,cantidad)
+  VALUES('Bayaspirina','Bayer',2.10,150); -- Note que la secuencia sigue
