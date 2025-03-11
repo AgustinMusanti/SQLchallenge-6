@@ -1,0 +1,50 @@
+Valores null.
+
+Problema:
+
+Retome la tabla llamada "medicamentos" que almacena la información de los productos
+que se venden en una farmacia.
+
+1- Elimine la tabla, si existe.
+
+2- Cree la tabla con los siguientes campos: codigo (con primary key), nombre, laboratorio, precio y cantidad.
+
+3- Visualice la estructura de la tabla "medicamentos".
+
+4- Ingrese los siguientes registros:
+
+('Sertal gotas','Roche',5.2,100); 
+('Sertal compuesto','Roche',7.1,150);
+('Buscapina','Roche',null,200);
+('Amoxidal 500','Bayer',15.60,0);
+('Amoxidal jarabe','Bayer',25,120);
+('Amoxinil',null,25,120);
+('Bayaspirina','',0,150); 
+
+5- Verifique que el campo "codigo" generó los valores de modo automático.
+
+6- Recupere los registros que contengan valor "null" en el campo "laboratorio", 
+   luego los que tengan una cadena vacía en el mismo campo. Note que el resultado 
+   es diferente:
+
+7- Recupere los registros que contengan valor "null" en el campo "precio", 
+   luego los que tengan el valor 0 en el mismo campo. Note que el resultado es diferente:
+
+8- Intente ingresar el siguiente registro con valor "null" para el campo "nombre":
+
+(null,'Bayer',10.20,100); 
+
+9- Intente ingresar el siguiente registro con valor "null" para el campo "cantidad":
+
+('Benadryl comprimidos','Bayer',10.20,null); 
+
+10- Ingrese el siguiente registro con valor "null" para el campo correspondiente al código:
+
+(null,'Benadryl comprimidos','Bayer',10.20,null);
+
+11- Recupere los registros cuyo precio sea distinto de 0, luego los que 
+    sean distintos de "null":
+
+12- Recupere los registros en los cuales el laboratorio no contenga una cadena vacía, 
+    luego los que sean distintos de "null":
+    
