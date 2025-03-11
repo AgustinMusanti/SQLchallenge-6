@@ -38,6 +38,12 @@ DESCRIBE agenda;
 
 SET sql_safe_updates=0;
 
+-- Además, para eliminar este default y no tener que ejecutar el código anterior cada vez que trabajamos con MySQL, voy al
+-- apartado "edit", luego a "preferences", desde alli clickeo "SQL editor" y bajo hasta encontrar la casilla de:
+-- Safe Updates (rejects UPDATEs and DELETEs with no restrictions) y la destildo.
+
+-- Ahora si, siguiendo con el ejercicio 5:
+
 DELETE FROM agenda
 WHERE nombre='Juan';
 
