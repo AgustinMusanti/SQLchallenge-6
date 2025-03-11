@@ -1,0 +1,32 @@
+Comando truncate table.
+
+Problema:
+
+Una farmacia guarda información referente a sus medicamentos en una tabla llamada "medicamentos".
+
+1- Elimine la tabla "medicamentos", si existe:
+
+2- Cree la tabla con los siguiente campos: codigo (con primary key), nombre, laboratorio, precio y cantidad.
+
+3- Ingrese los siguientes registros:
+
+('Sertal','Roche',5.2,100);
+('Buscapina','Roche',4.10,200);
+('Amoxidal 500','Bayer',15.60,100);
+
+4- Elimine todos los registros con "delete":
+
+5- Ingrese 2 registros:
+
+ ('Sertal','Roche',5.2,100);
+ ('Amoxidal 500','Bayer',15.60,100);
+
+6- Vea los registros para verificar que continuó la secuencia al generar el valor para "codigo":
+
+7- Vacíe la tabla:
+
+8- Ingrese el siguiente registro:
+
+('Buscapina','Roche',4.10,200);
+
+9- Vea los registros para verificar que al cargar el código reinició la secuencia en 1.
