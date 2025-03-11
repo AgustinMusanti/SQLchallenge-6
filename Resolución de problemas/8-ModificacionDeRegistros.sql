@@ -34,17 +34,17 @@ DESCRIBE agenda;
 -- 5- Modifique el registro cuyo nombre sea "Juan" por "Juan Jose":
 
 UPDATE agenda SET nombre='Juan Jose'
-WHERE nombre='Juan';
+WHERE  nombre='Juan';
 
 -- 6- Actualice los registros cuyo número telefónico sea igual a '4545454' por '4445566':
 
 UPDATE agenda SET telefono='4445566'
-WHERE telefono='4545454';
+WHERE  telefono='4545454';
 
 -- 7- Actualice los registros que tengan en el campo "nombre" el valor "Juan" por "Juan Jose":
 
 UPDATE agenda SET nombre='Juan Jose'
-WHERE nombre='Juan';
+WHERE  nombre='Juan';
 
 -- En este caso no se afecto ninguna columna ya que ningún registro cumple con la condición planteada
 
