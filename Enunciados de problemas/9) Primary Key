@@ -1,0 +1,28 @@
+Clave primaria.
+
+Problema:
+
+Trabaje con la tabla "libros" de una librería.
+
+1- Elimine la tabla si existe.
+
+2- Créela con los siguientes campos y clave: codigo (integer), titulo (cadena de 20 caracteres de longitud),
+   autor (cadena de 30), editorial (cadena de 15), codigo será clave primaria:
+
+3- Visualice la estructura de la tabla "libros", compruebe la clave primaria.
+
+4- Ingrese los siguientes registros:
+
+ 1,El aleph,Borges,Planeta;
+ 2,Martin Fierro,Jose Hernandez,Emece;
+ 3,Aprenda PHP,Mario Molina,Emece;
+ 4,Cervantes y el quijote,Borges,Paidos;
+ 5,Matematica estas ahi, Paenza, Paidos;
+
+5- Seleccione todos los registros.
+
+6- Ingrese un registro con código no repetido y nombre de autor repetido.
+
+7- Ingrese un registro con código no repetido y título y editorial repetidos.
+
+8- Intente ingresar un registro que repita el campo clave.
