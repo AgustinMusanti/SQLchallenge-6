@@ -18,6 +18,7 @@ CREATE TABLE libros(
 DESCRIBE libros;
 
 -- 4- Ingrese los siguientes registros:
+
   -- (1,El aleph,Borges,Planeta);
   -- (2,Martin Fierro,Jose Hernandez,Emece);
   -- (3,Aprenda PHP,Mario Molina,Emece);
@@ -52,7 +53,7 @@ SELECT * FROM libros;
 -- 8- Intente ingresar un registro que repita el campo clave.
 
 INSERT INTO libros (codigo, titulo, autor, editorial)
-VALUES(5, 'SQL', 'Juan Vazquez', 'Agus');
+VALUES(5, 'SQL', 'Juan Vazquez', 'AgusMusanti');
 
 -- NO se puede repetir codigo al ser una clave primaria.
 -- Nos da el error 1062: "Duplicate entry '5' for key libros.PRYMARY'
