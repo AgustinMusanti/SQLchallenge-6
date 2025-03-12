@@ -11,7 +11,7 @@ Trabaje con la tabla que almacena los datos sobre películas.
  -codigo: entero a partir de 1, autoincrementable,
  -titulo: caracteres de 40 de longitud, no nulo,
  -actor: cadena de 20,
- -duracion: entero positivo,
+ -duracion: float positivo,
  -clave primaria: codigo.
 
 3- Visualice la estructura de la tabla.
