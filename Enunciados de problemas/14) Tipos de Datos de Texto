@@ -18,12 +18,6 @@ una tabla llamada "autos".
 ('BCC333','Renault Megane','1998',95000);
 ('BVF543','Fiat 128','1975',20000);
 
--- He definido el campo "patente" de tipo "char" y no "varchar" porque la cadena de caracteres 
-siempre tendrá la misma longitud (6 caracteres), con esta definición ocupamos 6 bytes, si lo 
-hubiésemos definido como "varchar(6)" ocuparía 7 bytes. Lo mismo sucede con el campo "modelo", en 
-el cual almacenaremos el año, necesitamos 4 caracteres fijos. Para el campo "precio" definimos un 
-float sin signo porque los valores nunca serán negativos. --
-
 4- Seleccione todos los autos del año 1990:
 
 5- Seleccione todos los autos con precio superior a 50000:
