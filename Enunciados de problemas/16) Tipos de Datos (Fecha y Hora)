@@ -1,0 +1,28 @@
+Tipos de datos (fechas y horas)
+
+Problema:
+
+Una concesionaria de autos vende autos usados. Guarda los siguientes datos en la tabla "autos":
+
+- marca (fiat 128, renault 11, peugeot 505, etc.)
+- modelo (año)
+- dueño (nombre del dueño)
+- precio (valor con decimales positivo que puede llegar hasta 999999.99 aprox.).
+
+1- Elimine la tabla si existe.
+
+2- Cree la tabla eligiendo el tipo de dato adecuado para almacenar estos datos:
+
+3- Ingrese los siguientes registros:
+
+ ('Fiat 128','1970','Juan Lopez',50000);
+ ('Renault 11','1990','Juan Lopez',80000);
+ ('Fiat 128','1971','Ana Ferreyra',51000);
+ ('Peugeot 505','1998','Luis Luque',99000);
+ ('Peugeot 505','1997','Carola Perez',85000);
+
+4- Seleccione todos los autos cuyo modelo sea menor a "1995":
+
+5- Muestre la marca y modelo de los autos que no sean de "1970":
+
+6- Ingrese un auto con el valor para "modelo" de tipo numérico:
