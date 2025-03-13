@@ -32,7 +32,7 @@ VALUES('ACD123','Fiat 128','1970',15000),
 /* He definido el campo "patente" de tipo "char" y no "varchar" porque la cadena de caracteres 
 siempre tendrá la misma longitud (6 caracteres), con esta definición ocupa 6 bytes, si lo 
 hubiése definido como "varchar(6)" ocuparía 7 bytes. Lo mismo sucede con el campo "modelo", en 
-el cual se almacena el año, necesitamos 4 caracteres fijos. Para el campo "precio" definí un 
+el cual se almacena el año, por lo que necesita 4 caracteres fijos. Para el campo "precio" definí un 
 float sin signo porque los valores nunca serán negativos. */
 
 -- 4- Seleccione todos los autos del año 1990:
