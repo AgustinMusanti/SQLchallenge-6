@@ -1,0 +1,29 @@
+Atributo default en una columna de una tabla.
+
+Problema:
+
+Un comercio que envía pizzas y empanadas a domicilio registra los pedidos diariamente en una tabla 
+llamada "pedidos" con los siguientes datos:
+ - numero de pedido, autoincrementable, entero positivo comienza en 1 y menor a 200 aprox.
+ - nombre: pizza o empanada, por defecto "empanada",
+ - tipo: por ejemplo, si es pizza: especial, muzarela, etc., si son empanadas: arabes, pollo, jamón 
+y queso, criollas, etc.
+ - precio: precio por unidad, valor con decimales que no supera los $99.99 y será siempre mayor a 
+0, por defecto "1",
+ - cantidad: cantidad de articulos, entero positivo desde 1 e inferior a 200 aprox., por 
+defecto "12"
+ - domicilio del cliente.
+
+1- Elimine la tabla "pedidos" si existe.
+
+2- Cree la tabla eligiendo el tipo de dato adecuado para cada campo.
+
+3- Ingrese los siguientes registros:
+
+   ('piza','muzarela','4.00',3,'Sarmiento 235');
+   ('arabe','1.00',24,'Urquiza 296');
+   ('empanada','salteña','Colon 309');
+   ('arabe','San Martin 444');
+   ('piza','especial','4.00','Avellaneda 395');
+
+4- Muestre todos los campos de todos los pedidos para ver cómo se guardaron los datos no ingresados.
