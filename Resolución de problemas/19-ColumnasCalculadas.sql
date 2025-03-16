@@ -13,12 +13,12 @@ DROP TABLE IF EXISTS empleados;
  - clave primaria: documento. */
 
 CREATE TABLE empleados(
- nombre VARCHAR(25) NOT NULL,
+ nombre    VARCHAR(25) NOT NULL,
  documento INT UNIQUE,
- sexo ENUM('m','f'),
+ sexo      ENUM('m','f'),
  domicilio VARCHAR(35) DEFAULT 'Desconocido',
- sueldo DECIMAL(5,2) CHECK (sueldo <= 9999.99),
- hijos TINYINT UNSIGNED,
+ sueldo    DECIMAL(5,2) CHECK (sueldo <= 9999.99),
+ hijos     TINYINT UNSIGNED,
  PRIMARY KEY(documento));
  
 /* 3- Ingrese algunos registros:
