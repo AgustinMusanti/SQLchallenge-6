@@ -1,0 +1,36 @@
+Cláusula order by del select.
+
+Problema:
+
+Trabaje con la tabla llamada "medicamentos" que almacena la información de los productos que vende 
+una farmacia.
+
+1- Elimine la tabla "medicamentos", si existe.
+
+2- Cree y utilice la tabla con la siguiente estructura:
+
+ create table medicamentos(
+  codigo int unsigned auto_increment,
+  nombre varchar(20),
+  laboratorio varchar(20),
+  precio decimal(5,2),
+  cantidad int unsigned,
+  primary key(codigo)
+ );
+
+3- Visualice la estructura de la tabla "medicamentos".
+
+4- Ingrese los siguientes registros):
+
+('Sertal','Roche',5.2,100);
+('Buscapina','Roche',4.10,200);
+('Amoxidal 500','Bayer',15.60,100);
+('Paracetamol 500','Bago',1.90,200);
+('Bayaspirina','Bayer',2.10,150); 
+('Amoxidal jarabe','Bayer',5.10,250); 
+
+5- Ordene los registros por precio, de mayor a menor.
+
+6- Ordene los medicamentos por número del campo "cantidad".
+
+7- Ordene los registros por "laboratorio" (descendente) y cantidad (ascendente).
