@@ -1,0 +1,46 @@
+Operadores Lógicos (and - or - not)
+
+Problema:
+
+Trabaje con la tabla llamada "medicamentos" de una farmacia.
+
+1- Elimine la tabla "medicamentos", si existe.
+
+2- Cree y utilice la tabla con la siguiente estructura:
+
+ create table medicamentos(
+  codigo int unsigned auto_increment,
+  nombre varchar(20),
+  laboratorio varchar(20),
+  precio decimal(5,2),
+  cantidad int unsigned,
+  primary key(codigo)
+ );
+
+3- Visualice la estructura de la tabla "medicamentos".
+
+4- Ingrese los siguientes registros:
+
+('Sertal','Roche',5.2,100);
+('Buscapina','Roche',4.10,200);
+('Amoxidal 500','Bayer',15.60,100);
+('Paracetamol 500','Bago',1.90,200);
+('Bayaspirina','Bayer',2.10,150); 
+('Amoxidal jarabe','Bayer',5.10,250); 
+
+5- Recupere los códigos y nombres de los medicamentos cuyo laboratorio sea 'Roche' y cuyo precio 
+sea menor a 5:
+
+6- Recupere los medicamentos cuyo laboratorio sea 'Roche' o cuyo precio sea menor a 5:
+
+7- Muestre todos los registros que no sean de "Bayer" usando el operador "not".
+
+8- Muestre todos los medicamentos cuyo laboratorio NO sea "Bayer" y cuya cantidad sea=100:
+
+9- Muestre todos los medicamentos cuyo laboratorio sea "Bayer" y cuya cantidad NO sea=100:
+
+10- Elimine todos los registros cuyo laboratorio sea igual a "Bayer" y su precio sea mayor a 10:
+
+11- Cambie la cantidad por 200, a todos los medicamentos de "Roche" cuyo precio sea mayor a 5:
+
+12- Borre los medicamentos cuyo laboratorio sea "Bayer" o cuyo precio sea menor a 3.
