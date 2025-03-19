@@ -39,7 +39,7 @@ Cada archivo en la carpeta de resoluciones está numerado según el enunciado co
 
 ## 📚 Recursos Adicionales
 
-Si quieres aprender más sobre SQL, puedes visitar el canal de YouTube de **Diego Moisset De Espanes** para seguir sus clases y desafíos.
+Si queres aprender más sobre SQL, podes visitar el canal de YouTube de **Diego Moisset De Espanes** para seguir sus clases y desafíos.
 
 📌 [Canal de YouTube de Diego Moisset](https://www.youtube.com/@diegomoissetdeespanes)
 
