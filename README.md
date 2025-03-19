@@ -45,9 +45,9 @@ Si quieres aprender más sobre SQL, puedes visitar el canal de YouTube de **Dieg
 
 ## 📩 Contribuciones
 
-Este repositorio es un espacio de aprendizaje y práctica. Si tienes una forma diferente de resolver un problema o quieres optimizar una consulta, siéntete libre de hacer un **pull request** o abrir un **issue**.
+Este repositorio es un espacio de aprendizaje y práctica. Si tenes una forma diferente de resolver un problema o queres optimizar una consulta, sentite libre de hacer un **pull request** o abrir un **issue**.
 
 ## 📜 Licencia
 
-Este proyecto se comparte bajo la licencia MIT. Puedes usarlo y modificarlo libremente respetando los términos de la licencia.
+Este proyecto se comparte bajo la licencia MIT. Podes usarlo y modificarlo libremente respetando los términos de la licencia.
 
