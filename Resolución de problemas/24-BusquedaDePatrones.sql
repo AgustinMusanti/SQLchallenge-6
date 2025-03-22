@@ -46,3 +46,38 @@ VALUES('Sertal gotas','Roche',5.2),
 
 SELECT * FROM medicamentos
 WHERE nombre LIKE 'Amox%';
+
+-- 6- Recupere los medicamentos "Paracetamol" cuyo precio sea menor a 2:
+
+SELECT * FROM medicamentos
+WHERE nombre LIKE 'Paracetamol%' AND
+precio<2;
+
+-- 7- Busque todos los medicamentos cuyo precio tenga .10 centavos:
+
+SELECT * FROM medicamentos
+WHERE precio LIKE '%.1%';
+
+-- 8- Muestre todos los medicamentos que no contengan la cadena "compuesto":
+
+SELECT * FROM medicamentos
+WHERE nombre NOT LIKE'%compuesto%';
+
+-- 9- Elimine todos los registros cuyo laboratorio contenga la letra "y":
+
+DELETE FROM medicamentos
+WHERE laboratorio LIKE '%y%';
+
+-- Ejecuto la siguiente consulta para verificar el paso anterior:
+
+SELECT * FROM medicamentos;
+
+-- 10- Cambie el precio por 5, al "Paracetamol" cuyo precio es mayor a 2:
+
+UPDATE medicamentos SET precio=5
+WHERE nombre LIKE 'Paracetamol%' AND
+precio>2;
+
+-- Ejecuto la siguiente consulta para verificar el paso anterior:
+
+SELECT * FROM medicamentos;
