@@ -1,0 +1,43 @@
+Búsqueda de patrones - Regular Expresion
+(regexp)
+
+Problema:
+Trabaje con la tabla "agenda" que registra la información referente a sus amigos.
+
+1- Elimine la tabla si existe.
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table agenda(
+  apellido  varchar(30),
+  nombre    varchar(20) not null,
+  domicilio varchar(30),
+  telefono  varchar(11),
+  mail      varchar(30)
+ );
+
+3- Ingrese los siguientes registros:
+
+('Perez','Juan','Sarmiento 345','4334455','juancito@gmail.com');
+('Garcia','Ana','Urquiza 367','4226677','anamariagarcia@hotmail.com');
+('Lopez','Juan','Avellaneda 900',null,'juancitoLopez@gmail.com');
+('Juarez','Mariana','Sucre 123','0525657687','marianaJuarez2@gmail.com');
+('Molinari','Lucia','Peru 1254','4590987','molinarilucia@hotmail.com');
+('Ferreyra','Patricia','Colon 1534','4585858',null);
+('Perez','Susana','San Martin 333',null,null);
+('Perez','Luis','Urquiza 444','0354545256','perezluisalberto@hotmail.com');
+('Lopez','Maria','Salta 314',null,'lopezmariayo@gmail.com');
+
+4- Busque todos los mails que contengan la cadena "gmail":
+
+5- Busque los nombres que no tienen "z" ni "g":
+
+6- Busque los apellidos que tienen por lo menos una de las letras de la "v" hasta la "z" (v,w,x,y,z):
+
+7- Seleccione los apellidos que terminen en "ez":
+
+8- Seleccione los apellidos, nombres y domicilios de los amigos cuyos apellidos contengan 2 letras "i":
+
+9- Seleccione los teléfonos que tengan 7 caracteres exactamente:
+
+10- Seleccione el nombre y mail de todos los amigos cuyos mails tengan al menos 20 caracteres:
