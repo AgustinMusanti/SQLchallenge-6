@@ -31,7 +31,7 @@ INSERT INTO clientes (nombre, domicilio, ciudad, provincia, telefono)
 VALUES('Lopez Marcos', 'Colon 111', 'Córdoba','Cordoba',null),
       ('Perez Ana', 'San Martin 222', 'Cruz del Eje','Cordoba','4578585'),
       ('Garcia Juan', 'Rivadavia 333', 'Villa Maria','Cordoba','4578445'),
-	    ('Perez Luis', 'Sarmiento 444', 'Rosario','Santa Fe',null),
+      ('Perez Luis', 'Sarmiento 444', 'Rosario','Santa Fe',null),
       ('Pereyra Lucas', 'San Martin 555', 'Cruz del Eje','Cordoba','4253685'),
       ('Gomez Ines', 'San Martin 666', 'Santa Fe','Santa Fe','0345252525'),
       ('Torres Fabiola', 'Alem 777', 'Villa del Rosario','Cordoba','4554455'),
