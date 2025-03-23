@@ -1,0 +1,43 @@
+Registros duplicados (distinct)
+
+Problema:
+
+Una academia de enseñanza dicta distintos cursos de informática. Los cursos se dictan por la mañana 
+o por la tarde, todos los días de lunes a viernes. La academia guarda los datos de los cursos en 
+una tabla llamada "cursos" en la cual almacena el código del curso, el tema, los días de la semana 
+que se dicta, el horario, por la mañana (AM) o por la tarde (PM), la cantidad de clases que incluye 
+cada curso (clases), la fecha de inicio y el costo del curso.
+
+1- Elimine la tabla "cursos", si existe.
+
+2- Cree la tabla "cursos" con la siguiente estructura:
+
+ create table cursos(
+  codigo tinyint unsigned auto_increment,
+  tema varchar(20) not null,
+  horario char(2) not null,
+  clases tinyint unsigned default 10,
+  fechainicio date,
+  costo decimal(5,2) unsigned,
+  primary key(codigo)
+ );
+
+3- Ingrese los siguientes registros:
+
+('PHP básico','AM',10,'2006-08-07',200);
+('PHP básico','PM',default,'2006-08-14',200);
+('PHP básico','AM',default,'2006-08-05',200);
+('PHP avanzado','AM',20,'2006-08-01',350);
+('JavaScript básico','PM',15,'2006-09-11',150);
+('Paginas web','PM',15,'2006-08-08',200);
+('Paginas web','AM',15,'2006-08-12',200);
+('Paginas web','AM',15,'2006-08-21',200);
+('HTML avanzado','AM',20,'2006-09-18',180);
+('HTML avanzado','PM',20,'2006-09-25',180);
+('JavaScript avanzado','PM',25,'2006-09-18',150);
+
+4- Obtenga la lista de temas de los cursos sin repetición:
+
+5- Seleccione los cursos donde el tema incluya "PHP", sin repetir horario ni tema:
+
+6- Cuente la cantidad de cursos DISTINTOS agrupados por horario:
