@@ -41,29 +41,29 @@ VALUES('Lopez Marcos', 'Colon 111', 'Córdoba','Cordoba','null'),
 
 -- 4- Obtenga el total de los registros agrupados por provincia:
 
-SELECT provincia, COUNT(*)
-FROM   clientes
+SELECT   provincia, COUNT(*)
+FROM     clientes
 GROUP BY provincia;
 
 -- 5- Obtenga el total de los registros agrupados por ciudad y provincia:
 
-SELECT ciudad, provincia, COUNT(*)
-FROM   clientes
+SELECT   ciudad, provincia, COUNT(*)
+FROM     clientes
 GROUP BY ciudad,provincia;
 
 /* 6- Obtenga el total de los registros agrupados por ciudad y provincia sin considerar los que tienen 
 menos de 2 clientes: */
 
-SELECT ciudad, provincia, COUNT(*)
-FROM clientes
+SELECT   ciudad, provincia, COUNT(*)
+FROM     clientes
 GROUP BY ciudad,provincia
 HAVING COUNT(*)>1;
 
 /* 7- Obtenga el total de los registros sin teléfono nulo, agrupados por ciudad y provincia sin 
 considerar los que tienen menos de 2 clientes: */
 
-SELECT ciudad, provincia, COUNT(*)
-FROM clientes
-WHERE telefono IS NOT NULL
+SELECT   ciudad, provincia, COUNT(*)
+FROM     clientes
+WHERE    telefono IS NOT NULL
 GROUP BY ciudad,provincia
 HAVING COUNT(*)>1;
