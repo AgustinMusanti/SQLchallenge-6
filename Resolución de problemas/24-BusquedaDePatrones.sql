@@ -1,7 +1,5 @@
 -- 1- Elimine la tabla "medicamentos", si existe.
 
-SELECT FALTA TERMINAAAR
-
 DROP TABLE IF EXISTS medicamentos;
 
 -- 2- Cree la tabla con la siguiente estructura:
