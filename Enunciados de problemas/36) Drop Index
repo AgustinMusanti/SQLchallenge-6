@@ -1,0 +1,34 @@
+Borrar indice (drop index)
+
+Problema:
+
+Un instituto de enseñanza guarda los datos de sus alumnos en una tabla llamada "alumnos".
+
+1- Elimine la tabla si existe.
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table alumnos(
+  año year not null,
+  numero int unsigned not null,
+  nombre varchar(30),
+  documento char(8) not null,
+  domicilio varchar(30),
+  ciudad varchar(20),
+  provincia varchar(20),  
+  primary key(año,numero),
+  unique i_documento (documento),
+  index i_ciudadprovincia (ciudad,provincia)
+ );
+
+3- Vea los índices de la tabla.
+
+4- Elimine el índice "i_ciudadprovincia".
+
+5- Verifique la eliminación.
+
+6- Intente eliminar el índice PRIMARY.
+
+7- Elimine el índice único.
+
+8- Verifique nuevamente la eliminación.
