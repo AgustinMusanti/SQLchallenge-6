@@ -24,11 +24,11 @@ INSERT INTO peliculas (titulo, actor, duracion)
 VALUES('El Padrino', 'Marlon Brando', 175),
       ('Titanic', 'Leonardo DiCaprio', 195),
       ('Inception', 'Leonardo DiCaprio', 148),
-	    ('Matrix', 'Keanu Reeves', 136),
+      ('Matrix', 'Keanu Reeves', 136),
       ('Forrest Gump', 'Tom Hanks', 142),
       ('Gladiador', 'Russell Crowe', 155),
       ('Interstellar', 'Matthew McConaughey', 169),
-	    ('El Caballero Oscuro', 'Christian Bale', 152),
+      ('El Caballero Oscuro', 'Christian Bale', 152),
       ('Pulp Fiction', 'John Travolta', 154),
       ('El Señor de los Anillos', 'Elijah Wood', 178);
 
