@@ -1,0 +1,24 @@
+Cláusula limit del comando select.
+
+Problema:
+
+Trabaje con la tabla "peliculas" de un video club que alquila películas en video.
+
+1- Elimine la tabla, si existe.
+
+- Créela con la siguiente estructura:
+ -codigo (entero sin signo, autoincrementable),
+ -titulo (cadena de 30), not null,
+ -actor (cadena de 20),
+ -duracion (entero sin signo no mayor a 200 aprox.),
+ -clave primaria (codigo).
+
+3- Ingrese 10 registros.
+
+4- Realice una consulta limitando la salida a sólo 5 registros.
+
+5- Muestre los registros desde el cero al 8 usando un solo argumento.
+
+6- Muestre 3 registros a partir del 4.
+
+7- Muestre los registros a partir del 2 hasta el final.
