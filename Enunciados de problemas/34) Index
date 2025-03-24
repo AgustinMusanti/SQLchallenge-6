@@ -1,0 +1,21 @@
+Indice común (index)
+
+Problema:
+
+Retome la tabla llamada "medicamentos" de una farmacia.
+
+1- Elimine la tabla, si existe.
+
+2- Cree la tabla e indéxela por el campo "laboratorio":
+
+ create table medicamentos(
+  codigo int unsigned auto_increment,
+  nombre varchar(20) not null,
+  laboratorio varchar(20),
+  precio decimal (6,2) unsigned,
+  cantidad int unsigned,
+  primary key(codigo),
+  index i_laboratorio (laboratorio)
+ );
+
+3- Visualice los índices de la tabla "medicamentos" y analice la información:
