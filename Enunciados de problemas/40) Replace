@@ -1,0 +1,40 @@
+Remplazar registros (replace)
+
+Problema:
+
+ Un instituto de enseñanza guarda los datos de sus alumnos en la tabla "alumnos".
+
+1- Elimine la tabla si existe:
+
+2- Cree la tabla:
+
+ create table alumnos(
+  legajo int(10) unsigned auto_increment,
+  nombre varchar(30),
+  documento char(8),
+  domicilio varchar(30),
+  primary key(legajo),
+  unique i_documento (documento)
+ );
+
+3- Ingrese algunos registros:
+
+('1353','Juan Lopez','22333444','Colon 123');
+('2345','Ana Acosta','24000555','Caseros 456');
+('2356','Jose Torres','26888777','Sucre 312');
+('3567','Luis Perez','28020020','Rivadavia 234');
+
+4- Intente ingresar un registro con clave primaria repetida (legajo "3567"):
+
+5- Ingrese el registro anterior reemplazando el existente:
+
+6- Intente ingresar un alumno con documento repetido:
+
+7- Reemplace el registro: ('4567','Susana Juarez','30000333','Avellaneda 33');
+
+8- Elimine el índice único:
+
+9- Ingrese con "replace" el siguiente registro con documento existente:
+   ('4888','Gustavo Garcia','30000333','San Martin 846');
+
+10- Muestre todos los registros:
