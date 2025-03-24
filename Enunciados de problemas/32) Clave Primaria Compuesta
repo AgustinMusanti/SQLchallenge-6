@@ -1,0 +1,29 @@
+Clave primaria compuesta.
+
+Problema:
+
+Una pequeña biblioteca de barrio registra los préstamos de sus libros en una tabla 
+llamada "prestamos". En ella almacena la siguiente información:
+
+ -título del libro,
+ -documento de identidad del socio a quien se le presta el libro,
+ -fecha de préstamo,
+ -fecha de devolución del libro,
+ -devuelto: si el libro ha sido o no devuelto.
+
+1- Elimine la tabla "prestamos" si existe.
+
+2- Cree la tabla teniendo en cuenta que se necesita una clave que identifique cada registro en la tabla "prestamos".
+El mismo libro no puede prestarse en la misma fecha.
+
+3- Ingrese los siguientes registros para la tabla "prestamos":
+
+('Manual de 1 grado','22333444','2006-07-10');
+('Manual de 1 grado','22333444','2006-07-20');
+('Manual de 1 grado','23333444','2006-07-15');
+('El aleph','22333444','2006-07-10');
+('El aleph','30333444','2006-08-10');
+
+Note que un mismo libro fue prestado a un mismo socio pero en una fecha distinta.
+
+4- Intente ingresar un valor de clave primaria repetida:
