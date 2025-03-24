@@ -1,0 +1,33 @@
+Recuperación de registros en forma aleatoria(rand)
+
+Problema:
+
+Trabajamos con la tabla "alumnos" en el cual un instituto de enseñanza guarda los datos de sus 
+alumnos.
+
+1- Eliminamos la tabla "alumnos" si existe:
+
+2- Creamos la tabla:
+
+ create table alumnos(
+  documento char(8) not null,
+  nombre varchar(30),
+  domicilio varchar(30),
+  ciudad varchar(20),
+  provincia varchar(20),
+  primary key(documento)
+ );
+ 
+3- Agregamos varios registros:
+
+('22333444','Juan Perez','Colon 123','Cordoba','Cordoba');
+('23456789','Ana Acosta','Caseros 456','Cordoba','Cordoba');
+('24123123','Patricia Morales','Sucre 234','Villa del Rosario','Cordoba');
+('25000333','Jose Torres','Sarmiento 980','Carlos Paz','Cordoba');
+('26333444','Susana Molina','Avellaneda 234','Rosario','Santa Fe');
+('27987654','Marta Herrero','San Martin 356','Villa del Rosario','Cordoba');
+('28321321','Marcos Ferreyra','Urquiza 357','Cordoba','Cordoba');
+('30987464','Marta Perez','Rivadavia 234','Cordoba','Cordoba');
+
+4- El instituto quiere tomar 3 alumnos al azar para que representen al instituto en una feria de 
+   ciencias.
