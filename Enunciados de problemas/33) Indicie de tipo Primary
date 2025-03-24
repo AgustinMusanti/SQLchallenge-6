@@ -1,0 +1,19 @@
+Indice de tipo primary.
+
+Problema:
+
+Una empresa almacena los datos de sus clientes en una tabla llamada "clientes".
+
+1- Elimine la tabla "clientes" si existe.
+
+2- Créela con los siguientes campos y clave:
+
+ create table clientes(
+  documento char(8),
+  apellido varchar(20),
+  nombre varchar(20),
+  domicilio varchar(30),
+  primary key(documento)
+ );
+
+3- Vea la estructura de los índices la tabla y analice la información:
