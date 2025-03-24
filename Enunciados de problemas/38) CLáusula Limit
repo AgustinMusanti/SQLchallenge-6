@@ -6,7 +6,7 @@ Trabaje con la tabla "peliculas" de un video club que alquila películas en vide
 
 1- Elimine la tabla, si existe.
 
-- Créela con la siguiente estructura:
+2- Créela con la siguiente estructura:
  -codigo (entero sin signo, autoincrementable),
  -titulo (cadena de 30), not null,
  -actor (cadena de 20),
