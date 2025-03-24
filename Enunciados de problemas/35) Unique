@@ -1,0 +1,29 @@
+Indice único (unique)
+
+Problema:
+
+Un instituto de enseñanza guarda los siguientes datos de sus alumnos:
+
+ - año de inscripción,
+ - número de inscripto, comienza desde 1 cada año,
+ - nombre del alumno,
+ - documento del alumno,
+ - domicilio,
+ - ciudad,
+ - provincia,
+ - clave primaria: número de inscripto y año de inscripción.
+
+1- Elimine la tabla "alumnos" si existe.
+
+2- Cree la tabla definiendo una clave primaria compuesta (año de inscripción y número de 
+   inscripto), un índice único por el campo "documento" y un índice común por ciudad y provincia:
+
+3- Vea los índices de la tabla.
+
+4- Ingrese algunos registros. Ingrese 2 ó 4 alumnos para los años 2004, 2005 y 2006.
+
+5- Intente ingresar un alumno con clave primaria repetida.
+
+6- Intente ingresar un alumno con documento repetido.
+
+7- Ingrese varios alumnos de la misma ciudad y provincia.
