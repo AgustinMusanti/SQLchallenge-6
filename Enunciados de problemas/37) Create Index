@@ -1,0 +1,23 @@
+Creación de índices a tablas existentes (create index)
+
+Problema:
+
+Retome la tabla "clientes" que almacena información sobre los clientes de una empresa.
+
+1- Elimine la tabla "clientes", si existe.
+
+2- Créela con esta estructura:
+ create table clientes (
+  documento char (8) not null,
+  nombre varchar(30) not null,
+  domicilio varchar(30),
+  ciudad varchar(20),
+  provincia varchar (20),
+  telefono varchar(11)
+ );
+
+3- Agregue un índice común por ciudad y provincia:
+
+4- Agregue un índice único por el campo "documento":
+
+5- Vea la información de los índices:
