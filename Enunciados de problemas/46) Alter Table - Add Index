@@ -1,0 +1,27 @@
+Agregar índices(alter table - add index)
+
+Problema:
+
+Trabaje con la tabla "alumnos" en el cual un instituto de enseñanza guarda los datos de sus alumnos.
+
+1- Elimine la tabla "alumnos" si existe.
+
+2- Cree la tabla:
+
+ create table alumnos(
+  legajo int unsigned auto_increment,
+  nombre varchar(30),
+  documento char(8) not null,
+  domicilio varchar(30),
+  ciudad varchar(20),
+  provincia varchar(20),
+  primary key(legajo)
+ );
+
+3- Vea los índices de la tabla.
+
+4- Agregue un índice común por los campos "ciudad" y "provincia" (que pueden repetirse):
+
+5- Agregue un índice único (no pueden repetirse los valores) por el campo "documento":
+
+6- Visualice los índices:
