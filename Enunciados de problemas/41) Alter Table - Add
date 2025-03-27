@@ -1,0 +1,28 @@
+Agregar campos a una tabla (alter table - add)
+
+Problema:
+
+Trabaje con la tabla "peliculas" de un video club.
+
+1- Elimine la tabla, si existe.
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table peliculas(
+  codigo int unsigned auto_increment,
+  nombre varchar(30) not null,
+  actor varchar(20),
+  primary key(codigo)
+ );
+
+3- Ingrese algunos registros.
+
+4- Agregue un campo para almacenar la duración de la película, de tipo tinyint unsigned:
+
+5- Visualice la estructura de la tabla.
+
+6- Agregue el campo "director" para almacenar el nombre del director, de tipo varchar(20):
+
+7- Visualice la estructura de la tabla con su nuevo campo:
+
+8- Intente agregar un campo existente:
