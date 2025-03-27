@@ -1,0 +1,35 @@
+Agregar y eliminar la clave primaria (alter table)
+
+Problema:
+
+Trabaje con la tabla llamada "medicamentos" de una farmacia.
+
+1- Elimine la tabla, si existe:
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table medicamentos(
+  codigo int unsigned not null,
+  nombre varchar(20) not null,
+  laboratorio varchar(20),
+  precio decimal(6,2) unsigned
+);
+
+3- Visualice la estructura de la tabla "medicamentos".
+
+4- Agregue una clave primaria por "codigo":
+
+5- Modifique el campo convirtiéndolo en autoincrementable:
+
+6- Veamos los registros:
+
+7- Ingrese los registros:
+
+('Paracetamol 500','Bago',1.90);
+('Bayaspirina','Bayer',2.10);
+
+8- Intente eliminar la clave primaria:
+
+9- Modifique el campo "codigo" quitándole el atributo "auto_increment":
+
+10- Elimine la clave primaria:
