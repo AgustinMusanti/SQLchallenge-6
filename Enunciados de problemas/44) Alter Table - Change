@@ -1,0 +1,41 @@
+Cambiar el nombre de un campo de una tabla (alter table - change)
+
+Problema:
+
+Un comercio que vende por mayor artículos de librería y papelería tiene una tabla 
+llamada "articulos".
+
+1- Elimine la tabla, si existe.
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table articulos(
+  codigo int unsigned auto_increment,
+  nombre varchar(20) not null,
+  descripcion varchar(30),
+  precio decimal(4,2) unsigned,
+  primary key(codigo)
+ );
+
+3- Ingrese los siguientes registros:
+
+('escuadra','plastico 20 cm.',3.50);
+('lápices colores','Faber x12',4.50);
+('lápices colores','Faber x24',7.50);
+('regla','30 cm.',2.50);
+('fibras','Faber x12',10.30);
+('fibras','Faber x6',5.10);
+
+4- El comercio, que hasta ahora ha vendido sus artículos por mayor comenzará la venta por menor. 
+Necesita alterar la tabla modificando el nombre del campo "precio" por "preciopormayor" además 
+desea redefinirlo como no nulo:
+
+5- También necesita alterar la tabla agregando un campo para almacenar el precio por menor para 
+cada artículo. Agrege un campo llamado "preciopormenor" que no permita valores nulos:
+
+6- Muestre todos los registros:
+
+7- Actualice el campo "preciopormenor" de todos los registros, dándole el valor del campo "precio" 
+incrementado en un 10%:
+
+8- Muestre todos los registros:
