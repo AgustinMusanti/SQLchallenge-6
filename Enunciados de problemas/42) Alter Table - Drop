@@ -1,0 +1,34 @@
+Eliminar campos de una tabla (alter table - drop)
+
+Problema:
+
+Trabaje con la tabla "peliculas" de un video club.
+
+1- Elimine la tabla, si existe.
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table peliculas(
+  codigo int unsigned auto_increment,
+  nombre varchar(30) not null,
+  protagonista varchar(20),
+  actorsecundario varchar(20),
+  director varchar(25),
+  duracion tinyint unsigned,
+  primary key(codigo),
+  index i_director (director)
+ );
+
+3- Ingrese algunos registros.
+
+4- Vea los índices:
+
+5- Elimine el campo "director":
+
+6- Visualice la estructura modificada:
+
+7- Vea los índices:
+
+8- Intente eliminar un campo inexistente. Aparece un mensaje de error:
+
+9- Elimine los campos "actorsecundario" y "duracion" en una misma sentencia:
