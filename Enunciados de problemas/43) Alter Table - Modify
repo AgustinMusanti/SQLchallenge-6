@@ -1,0 +1,25 @@
+Modificar campos de una tabla (alter table - modify)
+
+Problema:
+
+Trabaje con la tabla "peliculas" de un video club.
+
+1- Elimine la tabla, si existe.
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table peliculas(
+  codigo int unsigned,
+  nombre varchar(20) not null,
+  actor varchar(20),
+  director varchar(25),
+  duracion tinyint
+ );
+
+3- Modifique el campo "duracion" por tinyint unsigned.
+
+4- Modifique el campo "nombre" para almacenar una longitud de 40 caracteres y que no permita valores nulos:
+ 
+5- Modifique el campo "actor" para que no permita valores nulos:
+
+6- Intente definir "auto_increment" el campo "codigo":
