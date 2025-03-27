@@ -29,6 +29,6 @@ Trabaje con la tabla "peliculas" de un video club.
 
 7- Vea los índices:
 
-8- Intente eliminar un campo inexistente. Aparece un mensaje de error:
+8- Intente eliminar un campo inexistente:
 
 9- Elimine los campos "actorsecundario" y "duracion" en una misma sentencia:
