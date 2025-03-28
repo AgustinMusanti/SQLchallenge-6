@@ -1,0 +1,48 @@
+Tipo de dato set.
+
+Problema:
+
+Una academia de enseñanza dicta distintos cursos de informática. Los cursos se dictan por la mañana 
+(de 8 a 12 hs.) o por la tarde (de 16 a 20 hs.), distintos días a la semana. La academia guarda los 
+datos de los cursos en una tabla llamada "cursos" en la cual almacena el código del curso, el tema, 
+los días de la semana que se dicta, el horario, por la mañana (AM) o por la tarde (PM), la cantidad 
+de clases que incluye cada curso (clases), la fecha de inicio y el costo del curso.
+
+1- Elimine la tabla "cursos", si existe.
+
+2- Cree la tabla "cursos" con la siguiente estructura:
+
+ create table cursos(
+  codigo tinyint unsigned auto_increment,
+  tema varchar(20) not null,
+  dias set ('lunes','martes','miercoles','jueves','viernes','sabado') not null,
+  horario enum ('AM','PM') not null,
+  clases tinyint unsigned default 1,
+  fechainicio date,
+  costo decimal(5,2) unsigned,
+  primary key(codigo)
+ );
+
+3- Ingrese los siguientes registros:
+
+('PHP básico','lunes,martes,miercoles','AM',18,'2006-08-07',200);
+('PHP básico','lunes,martes,miercoles','PM',18,'2006-08-14',200);
+('PHP básico','sabado','AM',18,'2006-08-05',280);
+('PHP avanzado','martes,jueves','AM',20,'2006-08-01',350);
+('JavaScript','lunes,martes,miercoles','PM',15,'2006-09-11',150);
+('Paginas web','martes,jueves','PM',10,'2006-08-08',250);
+('Paginas web','sabado','AM',10,'2006-08-12',280);
+('Paginas web','lunes,viernes','AM',10,'2006-08-21',200);
+('Paginas web','lunes,martes,miercoles,jueves,viernes','AM',10,'2006-09-18',180);
+('Paginas web','lunes,viernes','PM',10,'2006-09-25',280);
+('JavaScript','lunes,martes,viernes,sabado','PM',12,'2006-09-18',150);
+
+4- Una persona quiere inscribirse en un curso de "PHP" y sólo tiene disponibles los sábados. 
+Localice los cursos de "PHP" que se dictan solamente los sábados:
+
+5- Otra persona quiere aprender a diseñar páginas web, tiene disponibles todas las mañanas excepto 
+los miércoles. Vea si existe algún curso que cumpla con sus necesidades:
+
+6- Otra persona necesita aprender JavaScript, tiene disponibles todos las tardes excepto los jueves 
+y quiere un curso que no supere las 15 clases para el mes de setiembre. Busque algún curso para 
+esta persona:
