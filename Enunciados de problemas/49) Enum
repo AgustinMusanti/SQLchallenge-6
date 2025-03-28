@@ -1,0 +1,40 @@
+Tipo de dato enum.
+
+Problema:
+
+Trabajamos con la tabla "empleados" de una empresa.
+
+1- Elimine la tabla empleados, si existe.
+
+2- Cree la tabla con la siguiente estructura:
+
+ create table empleados(
+  documento char(8),
+  nombre varchar(30),
+  sexo char(1),
+  estadocivil enum('soltero','casado','divorciado','viudo') not null,
+  sueldobasico decimal(6,2),
+  primary key(documento)
+);
+
+3- Ingrese algunos registros:
+
+('22333444','Juan Lopez','m','soltero',300);
+('23333444','Ana Acosta','f','viudo',400);
+
+4- Intente ingresar un valor "null" para el campo enumerado:
+
+5- Ingrese resgistros con valores de índice para el campo "estadocivil":
+
+('26333444','Luis Perez','m',1,400);
+('26336444','Marcelo Torres','m',3,460);
+
+6- Ingrese un valor inválido, uno no presente en la lista y un valor de índice fuera de rango:
+
+('29333444','Lucas Perez','m',0,400);
+('30336444','Federico Garcia','m',5,450);
+('31333444','Karina Sosa','f','Concubino',500);
+
+7- Seleccione todos los empleados solteros:
+
+8- Seleccione todos los empleados viudos usando el número de índice de la enumeración:
