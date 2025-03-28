@@ -1,0 +1,31 @@
+Borrado de índices (alter table - drop index)
+
+Problema:
+
+Trabajamos con la tabla "alumnos" en la cual un instituto de enseñanza guarda los datos de sus 
+alumnos.
+
+1- Elimine la tabla "alumnos" si existe.
+
+2- Cree la tabla con los siguientes índices:
+
+ create table alumnos(
+  año year not null,
+  numero int unsigned not null,
+  nombre varchar(30),
+  documento char(8) not null,
+  domicilio varchar(30),
+  ciudad varchar(20),
+  provincia varchar(20),  
+  primary key(año,numero),
+  unique i_documento (documento),
+  index i_ciudadprovincia (ciudad,provincia),
+ );
+
+3- Vea los índices de la tabla.
+
+4- Elimine el índice único:
+
+5- Elimine el índice común:
+
+6- Vea los índices:
