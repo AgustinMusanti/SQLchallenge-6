@@ -1,0 +1,23 @@
+renombrar tablas (alter table - rename - rename table)
+
+Problema:
+
+Trabajamos con la tabla "peliculas" de un video club.
+
+1- Elimine la tabla, si existe.
+
+2- Cree la tabla "peliculas":
+
+ create table peliculas(
+  codigo int unsigned auto_increment,
+  titulo varchar(40),
+  duracion tinyint unsigned
+ );
+
+3- Cambie el nombre de la tabla por "films" con "alter table":
+
+4- Vea si existen las tablas "peliculas" y "films":
+
+5- Cambie nuevamente el nombre, de la tabla "films" por "peliculas" usando "rename":
+
+6- vea si existen las tablas:
