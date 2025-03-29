@@ -5,8 +5,8 @@ DROP TABLE IF EXISTS alumnos;
 -- 2- Cree la tabla:
 
 CREATE TABLE alumnos(
-  legajo CHAR(5) NOT NULL,
-  nombre VARCHAR(30),
+  legajo   CHAR(5) NOT NULL,
+  nombre   VARCHAR(30),
   promedio DECIMAL(4,2)
 );
 
