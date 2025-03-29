@@ -24,8 +24,8 @@ living');
 
 INSERT INTO inmuebles
 VALUES(1,'Colon 123','Centro','patio, 3 dormitorios, garage doble, pileta, 
-	     asador, living, cocina, comedor, escritorio, 2 baños'),
-	    (2,'Caseros 345','Centro','patio, 2 dormitorios, cocina- comedor, 
+       asador, living, cocina, comedor, escritorio, 2 baños'),
+      (2,'Caseros 345','Centro','patio, 2 dormitorios, cocina- comedor, 
        living'),
       (3,'Sucre 346','Alberdi','2 dormitorios, problemas de humedad'),
       (4,'Sarmiento 832','Gral. Paz','3 dormitorios, garage, 2 patios'),
