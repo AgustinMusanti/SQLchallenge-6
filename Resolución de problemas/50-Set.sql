@@ -37,8 +37,8 @@ VALUES('PHP básico','lunes,martes,miercoles','AM',18,'2006-08-07',200),
       ('JavaScript','lunes,martes,miercoles','PM',15,'2006-09-11',150),
       ('Paginas web','martes,jueves','PM',10,'2006-08-08',250),
       ('Paginas web','sabado','AM',10,'2006-08-12',280),
-	    ('Paginas web','lunes,viernes','AM',10,'2006-08-21',200),
-	    ('Paginas web','lunes,martes,miercoles,jueves,viernes','AM',10,'2006-09-18',180),
+      ('Paginas web','lunes,viernes','AM',10,'2006-08-21',200),
+      ('Paginas web','lunes,martes,miercoles,jueves,viernes','AM',10,'2006-09-18',180),
       ('Paginas web','lunes,viernes','PM',10,'2006-09-25',280),
       ('JavaScript','lunes,martes,viernes,sabado','PM',12,'2006-09-18',150);
 
