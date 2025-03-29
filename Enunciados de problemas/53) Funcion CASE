@@ -1,0 +1,30 @@
+Funciones de control de flujo (case)
+
+Problema:
+
+Un profesor guarda los promedios de sus alumnos de un curso en una tabla llamada "alumnos".
+
+1- Elimine la tabla si existe.
+
+2- Cree la tabla:
+
+ create table alumnos(
+  legajo char(5) not null,
+  nombre varchar(30),
+  promedio decimal(4,2)
+);
+
+3- Ingrese los siguientes registros:
+
+ (3456,'Perez Luis',8.5);
+ (3556,'Garcia Ana',7.0);
+ (3656,'Ludueña Juan',9.6);
+ (2756,'Moreno Gabriela',4.8);
+ (4856,'Morales Hugo',3.2);
+ (7856,'Gomez Susana',6.4);
+
+4- Si el alumno tiene un promedio menor a 4, muestre un mensaje "reprobado", si el promedio es 
+mayor o igual a 4 y menor a 7, muestre "regular", si el promedio es mayor o igual a 7, 
+muestre "promocionado", usando la primer sintaxis de "case":
+
+5- Obtenga la misma salida anterior pero empleando la sintaxis resumida de "case":
