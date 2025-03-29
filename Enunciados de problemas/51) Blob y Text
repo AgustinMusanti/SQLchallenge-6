@@ -1,0 +1,30 @@
+Tipos de datos blob y text.
+
+Problema:
+
+Una inmobiliaria guarda los datos de sus inmuebles en venta en una tabla llamada "inmuebles".
+
+1- Elimine la tabla si existe:
+
+2- Cree la tabla:
+
+ create table inmuebles(
+  codigo int unsigned auto_increment,
+  domicilio varchar(30),
+  barrio varchar(20),
+  detalles text,
+  primary key(codigo)
+ );
+
+3- Ingrsee algunos registros:
+
+(1,'Colon 123','Centro','patio, 3 dormitorios, garage doble, pileta, 
+asador, living, cocina, comedor, escritorio, 2 baños');
+(2,'Caseros 345','Centro','patio, 2 dormitorios, cocina- comedor, 
+living');
+(3,'Sucre 346','Alberdi','2 dormitorios, problemas de humedad');
+(4,'Sarmiento 832','Gral. Paz','3 dormitorios, garage, 2 patios');
+(5,'Avellaneda 384','Centro',' 2 patios, 2 dormitorios, garage');
+
+4- Busque todos los inmuebles que tengan "patio":
+
