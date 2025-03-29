@@ -31,7 +31,7 @@ CREATE TABLE empleados(
 INSERT INTO empleados
 VALUES('22333111','Juan Perez','m','Colon 123','1990-02-01','1970-05-10',550,0),
       ('25444444','Susana Morales','f','Avellaneda 345','1995-04-01','1975-11-06',650,2),
-	  ('20111222','Hector Pereyra','m','Caseros 987','1995-04-01','1965-03-25',510,1),
+      ('20111222','Hector Pereyra','m','Caseros 987','1995-04-01','1965-03-25',510,1),
       ('30000222','Luis LUque','m','Urquiza 456','1980-09-01','1980-03-29',700,3),
       ('20555444','Maria Laura Torres','f','San Martin 1122','2000-05-15','1965-12-22',400,3),
       ('30000234','Alberto Soto','m','Peru 232','2003-08-15','1989-10-10',420,1),
