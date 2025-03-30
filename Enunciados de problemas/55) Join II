@@ -1,0 +1,44 @@
+A) Un club dicta clases de distintos deportes. En una tabla llamada "socios" guarda los datos de 
+sus socios y en una tabla denominada "inscriptos" almacena la información necesaria para las 
+inscripciones de los socios a los distintos deportes.
+
+1- Elimine las tablas si existen.
+
+2- Cree las tablas:
+
+ create table socios(
+  documento char(8) not null,
+  nombre varchar(30),
+  domicilio varchar(30),
+  primary key(documento)
+ );
+
+ create table inscriptos(
+  documento char(8) not null, 
+  deporte varchar(15) not null,
+  año year,
+  matricula char(1), /*si esta paga ='s' sino 'n'*/
+  primary key(documento,deporte,año)
+ );
+
+3- Ingrese algunos registros para ambas tablas:
+
+socios:
+('22333444','Juan Perez','Colon 234');
+('23333444','Maria Lopez','Sarmiento 465');
+('24333444','Antonio Juarez','Caseros 980');
+
+inscriptos:
+('22333444','natacion','2005','s');
+('22333444','natacion','2006','n');
+('23333444','natacion','2005','s');
+('23333444','tenis','2006','s');
+('23333444','natacion','2006','s');
+('24333444','tenis','2006','n');
+('24333444','basquet','2006','n');
+
+4- Muestre el nombre del socio y todos los campos de la tabla "inscriptos":
+
+5- Muestre el nombre de los socios y los deportes en los cuales están inscriptos este año:
+
+6- Muestre el nombre y todas las inscripciones del socio con número de documento='23333444':
