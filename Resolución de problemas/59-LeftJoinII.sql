@@ -50,7 +50,7 @@ VALUES('22333444','natacion','2015','s'),
       ('23333444','natacion','2015','s'),
       ('23333444','tenis','2016','s'),
       ('23333444','natacion','2016','s'),
-	    ('25333444','tenis','2016','n'),
+      ('25333444','tenis','2016','n'),
       ('25333444','basquet','2016','n');
  
 -- 4- Muestre el nombre del socio, deporte y año realizando un join:
