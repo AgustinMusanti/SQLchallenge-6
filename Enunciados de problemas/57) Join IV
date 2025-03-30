@@ -1,0 +1,46 @@
+ Una clínica registra las consultas de los pacientes en una tabla llamada "consultas" y en otra 
+tabla denominada "obrassociales" almacena los datos de las obras sociales que atiende.
+
+1- Elimine las tablas "consultas" y "obrassociales" si existen.
+
+2- Cree las tablas:
+
+ create table consultas(
+  fecha date,
+  hora time,
+  documento char(8) not null,
+  codigoobrasocial tinyint unsigned,
+  medico varchar(30),
+  primary key(fecha,hora,medico)
+ );
+
+ create table obrassociales(
+  codigo tinyint unsigned auto_increment,
+  nombre varchar(15),
+  monto decimal(5,2) unsigned,
+  primary key(codigo)
+ );
+
+3- Ingrese algunos registros:
+
+obrassociales:
+('PAMI',2);
+('IPAM',5);
+('OSDOP',3);
+
+consultas:
+('2006-08-10','8:00','22333444',1,'Perez');
+('2006-08-10','10:00','22333444',1,'Lopez');
+('2006-08-10','8:30','23333444',1,'Perez');
+('2006-08-10','9:00','24333444',2,'Perez');
+('2006-08-10','10:00','25333444',3,'Perez');
+('2006-08-10','8:30','25333444',1,'Garcia');
+('2006-09-10','8:30','25333444',1,'Lopez');
+
+4- Muestre la fecha,hora,documento del paciente, médico, nombre y monto de la obra social de todas 
+las consultas:
+
+5- Muestre fecha,hora,documento del paciente y nombre de la obra social para las consultas del 
+doctor "Perez":
+
+6- Muestre las obras sociales DISTINTAS que atendió el doctor "Perez" el día "2006-08-10":
