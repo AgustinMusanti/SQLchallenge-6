@@ -1,0 +1,44 @@
+Una pequeña biblioteca de barrio registra los préstamos de sus libros en una tabla 
+llamada "prestamos" y los datos de sus libros en una tabla llamada "libros".
+
+1- Elimine las tablas "prestamos" y "libros", si existen.
+
+2- Cree las tablas:
+
+ create table libros(
+  codigo int unsigned auto_increment,
+  titulo varchar(40),
+  autor varchar (30),
+  editorial varchar (15),
+  primary key (codigo)
+ );
+
+ create table prestamos(
+  codigolibro int unsigned not null,
+  documento char(8) not null,
+  fechaprestamo date not null,
+  fechadevolucion date,
+  primary key(codigolibro,fechaprestamo)
+ );
+
+3- Ingrese algunos registros para ambas tablas:
+
+libros:
+(15,'Manual de 1º grado','Moreno Luis','Emece');
+(28,'Manual de 2º grado','Moreno Luis','Emece');
+(30,'Alicia en el pais de las maravillas','Lewis Carroll','Planeta');
+(35,'El aleph','Borges','Emece');
+
+prestamos:
+(15,'22333444','2006-07-10','2006-07-12');
+(15,'22333444','2006-07-20','2006-07-21');
+(15,'23333444','2006-07-25');
+(30,'23333444','2006-07-28');
+(28,'25333444','2006-08-10');
+
+4- Muestre todos los datos de los préstamos, incluyendo el nombre del libro:
+ 
+5- Muestre la información de los préstamos del libro "Manual de 1º grado":
+
+6- Muestre los títulos de los libros, la fecha de préstamo y el documento del socio de todos los 
+   libros que no han sido devueltos:
