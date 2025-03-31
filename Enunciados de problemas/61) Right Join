@@ -1,0 +1,52 @@
+Varias tablas (right join)
+
+Problema:
+
+Un club dicta clases de distintos deportes. En una tabla llamada "socios" guarda los datos de sus 
+socios y en una tabla denominada "inscriptos" almacena la información necesaria para las 
+inscripciones de los socios a los distintos deportes.
+
+1- Elimine las tablas "socios" e "inscriptos" si existen.
+
+2- Cree las tablas:
+
+ create table socios(
+  documento char(8) not null,
+  nombre varchar(30),
+  domicilio varchar(30),
+  primary key(documento)
+ );
+
+ create table inscriptos(
+  documento char(8) not null, 
+  deporte varchar(15) not null,
+  año year,
+  matricula char(1), /*si esta paga ='s' sino 'n'*/
+  primary key(documento,deporte,año)
+ );
+
+3- Ingrese algunos registros para ambas tablas:
+
+socios:
+('22333444','Juan Perez','Colon 234');
+('23333444','Maria Lopez','Sarmiento 465');
+('24333444','Antonio Juarez','Caseros 980');
+('25333444','Marcelo Pereyra','Sucre 349');
+
+inscriptos:
+('22333444','natacion','2015','s');
+('22333444','natacion','2016','n');
+('23333444','natacion','2015','s');
+('23333444','tenis','2016','s');
+('23333444','natacion','2016','s');
+('24333444','tenis','2016','n');
+('24333444','basquet','2016','n');
+
+4- Realice un "left join" de la tabla "socios" a "inscriptos" buscando coincidencia de "documento":
+
+5- Realice un "right join" para obtener la misma salida anterior:
+
+6- Ingrese una inscripción de alguien que no sea socio (documento que no se encuentre en la 
+tabla "socios"):
+
+7- Realice un "right join" desde la tabla "socios" a "inscriptos" buscando coincidencia de documento:
