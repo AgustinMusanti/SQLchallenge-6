@@ -1,0 +1,31 @@
+Una agencia matrimonial almacena la información de sus clientes en una tabla llamada "clientes".
+
+1- Elimine la tabla "clientes" si existe:
+
+2- Cree la tabla:
+
+ create table clientes(
+  nombre varchar(30),
+  domicilio varchar(30),
+  sexo char(1),
+  edad tinyint
+ );
+
+3- Ingrese los siguientes registros:
+
+('Juan Perez','m',45);
+('Ana Lopez','f',50);
+('Federico Herrero','m',30);
+('Mariano Juarez','m',35);
+('Maria Torres','f',36);
+('Ines Duarte','f',55);
+('Alejandra Figueroa','f',40);
+
+4- La agencia necesita la combinación de todas las personas de sexo femenino con las de sexo 
+   masculino. Use un "join" sin parte "on" y establezca como condición que las personas de la 
+   primera tabla sean de sexo femenino y las de la segunda tabla de sexo masculino:
+
+5- Obtenga la misma salida usando "cross join":
+
+6- Se pide, además, que las edades de las posibles parejas no tengan una diferencia superior a
+   10 años:
