@@ -1,0 +1,25 @@
+Varios clubes de barrio se organizaron para realizar campeonatos entre ellos. La tabla 
+llamada "equipos" guarda la información de los distintos equipos que jugarán.
+
+1- Elimine la tabla "equipos", si existe.
+
+2- Cree la tabla:
+
+  create table equipos(
+  nombre varchar(30),
+  barrio varchar(20),
+  domicilio varchar(30),
+  entrenador varchar(30)
+ );
+
+3- Ingrese los siguientes registros:
+
+('Los tigres','Gral. Paz','Sarmiento 234','Juan Lopez');
+('Los leones','Centro','Colon 123','Gustavo Fuentes');
+('Campeones','Pueyrredon','Guemes 346','Carlos Moreno');
+('Cebollitas','Alberdi','Colon 1234','Luis Duarte');
+
+4- Cada equipo jugará con todos los demás 2 veces, una vez en cada sede. Realice un "cross join" 
+   para combinar los equipos teniendo en cuenta que un equipo no juega consigo mismo:
+
+5- Obtenga el mismo resultado empleando un "join" sin parte "on":
