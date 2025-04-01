@@ -1,0 +1,74 @@
+join con más de dos tablas.
+
+Problema:
+
+Un video club que alquila películas en video guarda información de sus películas en alquiler, sus 
+socios y los alquileres en 3 tablas llamadas "peliculas", "socios" y "alquileres" respectivamente.
+
+1- Elimine las tablas "peliculas", "socios" y "alquileres" si existen.
+
+2- Créelas con las siguientes estructuras:
+
+ create table peliculas (
+  codigo smallint unsigned auto_increment,
+  titulo varchar(40) not null,
+  actores varchar(40),
+  duracion tinyint unsigned,
+  primary key (codigo)
+ );
+
+ create table socios(
+  codigo smallint unsigned auto_increment,
+  documento char(8),
+  nombre varchar(30),
+  domicilio varchar(30),
+  primary key (codigo)
+ );
+ 
+ create table alquileres(
+  codigopelicula smallint unsigned not null,
+  codigosocio smallint unsigned not null,
+  fechaprestamo date not null,
+  fechadevolucion date,
+  primary key (codigopelicula,fechaprestamo)
+ );
+
+3- Ingrese los siguientes registros para las 3 tablas.
+
+peliculas:
+('Elsa y Fred','China Zorrilla',90);
+('Mision imposible','Tom Cruise',120);
+('Mision imposible 2','Tom Cruise',180);
+('Harry Potter y la piedra filosofal','Daniel H.',120);
+('Harry Potter y la camara secreta','Daniel H.',150);
+
+socios:
+('22333444','Juan Lopez');
+('23333444','Diana Perez');
+('24333444','Luis Fuentes');
+
+alquileres:
+(1,1,'2016-07-02');
+(2,1,'2016-07-02');
+(3,1,'2016-07-12');
+(1,2,'2016-08-02');
+(3,2,'2016-08-12');
+(4,2,'2016-08-02');
+(1,3,'2016-09-02');
+(2,3,'2016-08-02');
+(3,3,'2016-08-15');
+(4,3,'2016-08-22');
+(4,1,'2016-08-25');
+(1,3,'2016-08-25');
+
+4- Muestre toda la información de los "alquileres" (nombre de la película, nombre del socio, fecha 
+   de préstamo y de devolución):
+
+5- Muestre la cantidad de veces que se alquiló cada película:
+
+6- Muestre la cantidad de películas que alquiló cada socio:
+
+7- Muestre la cantidad de películas DISTINTAS que alquiló cada socio:
+
+8- Muestre la cantidad de películas alquiladas por cada socio ordenado por mes:
+ 
