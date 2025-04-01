@@ -55,7 +55,7 @@ VALUES('Cordoba'),
 INSERT INTO clientes (nombre, domicilio, ciudad, codigoprovincia, telefono)
 VALUES('Lopez Marcos', 'Colon 111', 'Córdoba',1,'null'),
       ('Perez Ana', 'San Martin 222', 'Cruz del Eje',1,'4578585'),
-	    ('Garcia Juan', 'Rivadavia 333', 'Villa Maria',1,'4578445'),
+      ('Garcia Juan', 'Rivadavia 333', 'Villa Maria',1,'4578445'),
       ('Perez Luis', 'Sarmiento 444', 'Rosario',2,null),
       ('Pereyra Lucas', 'San Martin 555', 'Cruz del Eje',1,'4253685'),
       ('Gomez Ines', 'San Martin 666', 'Santa Fe',2,'0345252525'),
