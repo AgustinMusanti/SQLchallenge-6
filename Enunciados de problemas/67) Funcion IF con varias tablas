@@ -1,0 +1,55 @@
+Función de control if con varias tablas.
+
+Problema:
+
+Un profesor guarda los promedios de sus alumnos de un curso en una tabla llamada "alumnos" y las 
+notas de los mismos en la tabla "notas".
+
+1- Elimine las tablas "alumnos", "notas" si existen.
+
+2- Cree las tablas:
+
+ create table alumnos(
+  documento char(8) not null,
+  nombre varchar(30),
+  primary key(documento)
+ );
+
+ create table notas(
+  documento char(8) not null,
+  nota decimal(4,2) unsigned
+ );
+
+3- Ingrese los siguientes registros:
+
+alumnos:
+('22333444','Juan Perez');
+('23555666','Marina Herrero');
+('24000333','Daniel Juarez');
+('25222111','Hector Paz');
+
+notas:
+('22333444',7);
+('23555666',8);
+('24000333',3);
+('25222111',7);
+('22333444',7);
+('23555666',9);
+('24000333',4);
+('22333444',6);
+('23555666',10);
+('24000333',3);
+('25222111',9);
+('23555666',10);
+
+No todos los alumnos tienen la misma cantidad de notas porque algunos presentaron trabajos extras o 
+no asistieron a los examenes.
+
+4- Muestre el documento del alumno, su nombre y el promedio; si el alumno tiene un promedio menor a 
+4, muestre un mensaje "reprobado", si el promedio es mayor o igual a 4 y menor a 7, 
+muestre "regular", si el promedio es mayor a 7, muestre "promocionado", usando "case":
+
+5- Muestre el documento y nombre del alumno y con un "if" si el alumno está aprobado o no:
+
+6- Muestre el documento, nombre del alumno y con un "case", si tiene 1 nota, 2 notas o más de 2 
+notas: 
