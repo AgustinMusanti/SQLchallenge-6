@@ -13,7 +13,6 @@ nombre). Agregue una restricción "primary key" para el campo "codigo" de ambas 
 3- Necesitamos conocer los nombres de las ciudades de aquellos clientes cuyo domicilio es en calle 
 "San Martin", empleando subconsulta
 
-
 4- Obtenga la misma salida anterior pero empleando join.
 
 5- Obtenga los nombre de las ciudades de los clientes cuyo apellido no comienza con una letra 
