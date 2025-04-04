@@ -5,9 +5,7 @@ Problema:
 Una empresa tiene registrados sus clientes en una tabla llamada "clientes", también tiene una tabla 
 "ciudades" donde registra los nombres de las ciudades.
 
-1- Cree la tabla "clientes"
-
-(codigo, nombre, domicilio, ciudad, codigociudad) y "ciudades" (codigo, 
+1- Cree la tabla "clientes"(codigo, nombre, domicilio, ciudad, codigociudad) y "ciudades"(codigo, 
 nombre). Agregue una restricción "primary key" para el campo "codigo" de ambas tablas):
 
 2- Ingrese algunos registros para ambas tablas:
