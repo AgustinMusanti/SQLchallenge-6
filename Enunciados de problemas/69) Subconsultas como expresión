@@ -1,0 +1,15 @@
+Subconsultas como expresión
+
+Problema:
+
+Un profesor almacena el documento, nombre y la nota final de cada alumno de su clase en una tabla 
+llamada "alumnos".
+
+1- Elimine la tabla si existe y luego Créela 
+
+2-Ingrese algunos registros:
+
+3- Obtenga todos los datos de los alumnos con la nota más alta, empleando subconsulta:
+
+4- Muestre los alumnos que tienen una nota menor al promedio, su nota, y la diferencia con el 
+promedio.
