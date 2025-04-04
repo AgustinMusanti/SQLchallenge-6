@@ -1,0 +1,34 @@
+Variables de usuario.
+
+Problema:
+
+Un video club que alquila películas en video guarda información de sus películas en la 
+tabla "peliculas".
+
+1- Elimine la tabla si existe.
+
+2- Créela con la siguiente estructura:
+
+ create table peliculas (
+  codigo smallint unsigned auto_increment,
+  titulo varchar(40) not null,
+  actor varchar(30),
+  duracion tinyint unsigned,
+  primary key (codigo)
+ );
+
+3- Ingrese los siguientes registros:
+
+('Elsa y Fred','China Zorrilla',90);
+('Mision imposible','Tom Cruise',120);
+('Mision imposible 2','Tom Cruise',180);
+('Harry Potter y la piedra filosofal','Daniel H.',120);
+('Harry Potter y la camara secreta','Daniel H.',150);
+
+4- Guarde en dos variables el valor de duración de la película más larga y el de la más corta:
+
+5- Muestre todos los datos de ambas peliculas; 
+
+6- Guarde en una variable el nombre del actor de la película de mayor duración:
+
+7- Muestre todas las películas en las cuales trabaja el autor almacenado en la variable "@actor":
