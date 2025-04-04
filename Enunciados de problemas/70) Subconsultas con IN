@@ -1,0 +1,25 @@
+Subconsultas con in
+
+Problema:
+
+Una empresa tiene registrados sus clientes en una tabla llamada "clientes", también tiene una tabla 
+"ciudades" donde registra los nombres de las ciudades.
+
+1- Cree la tabla "clientes"
+
+(codigo, nombre, domicilio, ciudad, codigociudad) y "ciudades" (codigo, 
+nombre). Agregue una restricción "primary key" para el campo "codigo" de ambas tablas):
+
+2- Ingrese algunos registros para ambas tablas:
+
+3- Necesitamos conocer los nombres de las ciudades de aquellos clientes cuyo domicilio es en calle 
+"San Martin", empleando subconsulta
+
+
+4- Obtenga la misma salida anterior pero empleando join.
+
+5- Obtenga los nombre de las ciudades de los clientes cuyo apellido no comienza con una letra 
+específica, empleando subconsulta. 
+
+6- Pruebe la subconsulta del punto 5 separada de la consulta exterior para verificar que retorna 
+una lista de valores de un solo campo.     
