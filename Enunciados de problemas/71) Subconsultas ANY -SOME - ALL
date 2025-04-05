@@ -1,0 +1,28 @@
+Subconsultas any - some - all
+
+Problema:
+
+Un club dicta clases de distintos deportes a sus socios. El club tiene una tabla llamada 
+"inscriptos" en la cual almacena el número de "socio", el código del deporte en el cual se inscribe 
+y la cantidad de cuotas pagas (desde 0 hasta 10 que es el total por todo el año), y una tabla 
+denominada "socios" en la que guarda los datos personales de cada socio.
+
+1- Borre las tablas si existen y luego cree las tablas:
+
+2- Ingrese algunos registros:
+
+3- Muestre el número de socio, el nombre del socio y el deporte en que está inscripto con un join de 
+ambas tablas.
+
+4- Muestre los socios que serán compañeros en tenis y también en natación (empleando 
+subconsulta)
+ 
+5- Vea si el socio 1 se ha inscripto en algún deporte en el cual se haya inscripto el socio 2.
+
+6- Obtenga el mismo resultado anterior pero empleando join.
+
+7- Muestre los deportes en los cuales el socio 2 pagó más cuotas que ALGUN deporte en los que se 
+inscribio el socio 1
+
+8- Muestre los deportes en los cuales el socio 2 pagó más cuotas que TODOS los deportes en que se 
+inscribió el socio 1.
