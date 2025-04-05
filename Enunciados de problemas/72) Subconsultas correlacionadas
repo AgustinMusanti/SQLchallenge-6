@@ -1,0 +1,20 @@
+Subconsultas correlacionadas
+
+Problema:
+
+Un club dicta clases de distintos deportes a sus socios. El club tiene una tabla llamada 
+"inscriptos" en la cual almacena el número de "socio", el código del deporte en el cual se inscribe 
+y la cantidad de cuotas pagas (desde 0 hasta 10 que es el total por todo el año), y una tabla 
+denominada "socios" en la que guarda los datos personales de cada socio.
+
+1- Cree las tablas y bórrelas primero si ya existen:
+
+2- Ingrese algunos registros:
+
+3- Se necesita un listado de todos los socios que incluya nombre y domicilio, la cantidad de 
+deportes a los cuales se ha inscripto, empleando subconsulta.
+
+4- Se necesita el nombre de todos los socios, el total de cuotas que debe pagar (10 por cada 
+deporte) y el total de cuotas pagas, empleando subconsulta.
+ 
+5- Obtenga la misma salida anterior empleando join.
