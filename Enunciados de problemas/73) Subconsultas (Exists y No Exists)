@@ -7,65 +7,12 @@ Un club dicta clases de distintos deportes a sus socios. El club tiene una tabla
 y la cantidad de cuotas pagas (desde 0 hasta 10 que es el total por todo el año), y una tabla 
 denominada "socios" en la que guarda los datos personales de cada socio.
 
-1- Cree las tablas y elimi:
-
- drop table if exists socios;
- drop table if exists inscriptos;
-
- create table socios(
-  numero int auto_increment,
-  documento char(8),
-  nombre varchar(30),
-  domicilio varchar(30),
-  primary key (numero)
- );
- 
- create table inscriptos (
-  numerosocio int not null,
-  deporte varchar(20) not null,
-  cuotas smallint,
-  primary key(numerosocio,deporte)
- );
+1- Elimine las tablas "socios" e "inscriptos" si ya existen y luego creelas:
 
 2- Ingrese algunos registros:
- insert into socios(documento,nombre,domicilio) values('23333333','Alberto Paredes','Colon 111');
- insert into socios(documento,nombre,domicilio) values('24444444','Carlos Conte','Sarmiento 755');
- insert into socios(documento,nombre,domicilio) values('25555555','Fabian Fuentes','Caseros 987');
- insert into socios(documento,nombre,domicilio) values('26666666','Hector Lopez','Sucre 344');
-
- insert into inscriptos values(1,'tenis',1);
- insert into inscriptos values(1,'basquet',2);
- insert into inscriptos values(1,'natacion',1);
- insert into inscriptos values(2,'tenis',9);
- insert into inscriptos values(2,'natacion',1);
- insert into inscriptos values(2,'basquet',default);
- insert into inscriptos values(2,'futbol',2);
- insert into inscriptos values(3,'tenis',8);
- insert into inscriptos values(3,'basquet',9);
- insert into inscriptos values(3,'natacion',0);
- insert into inscriptos values(4,'basquet',10);
 
 3- Emplee una subconsulta con el operador "exists" para devolver la lista de socios que se 
-inscribieron en 'natacion'.
- select nombre
-  from socios as s
-  where exists
-   (select * from inscriptos as i
-     where s.numero=i.numerosocio
-     and i.deporte='natacion');
 
-4- Busque los socios que NO se han inscripto en 'natacion' empleando "not exists".
- select nombre
-  from socios as s
-  where not exists
-   (select * from inscriptos as i
-     where s.numero=i.numerosocio
-     and i.deporte='natacion');     
+4- Busque los socios que NO se han inscripto en 'natacion' empleando "not exists".  
 
-5- Muestre todos los datos de los socios que han pagado todas las cuotas.
- select s.*
-  from socios as s
-  where exists
-   (select * from inscriptos as i
-     where s.numero=i.numerosocio
-     and i.cuotas=10);     
+5- Muestre todos los datos de los socios que han pagado todas las cuotas. 
