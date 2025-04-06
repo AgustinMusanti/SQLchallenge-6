@@ -1,0 +1,19 @@
+Subconsulta simil autocombinación
+
+Problema:
+
+Un club dicta clases de distintos deportes a sus socios. El club tiene una tabla llamada "deportes" 
+en la cual almacena el nombre del deporte, el nombre del profesor que lo dicta, el día de la semana 
+que se dicta y el costo de la cuota mensual.
+
+1- Borre y luego cree la tabla 'deportes':
+ 
+2- Ingrese algunos registros. Incluya profesores que dicten más de un curso:
+
+3- Muestre los nombres de los profesores que dictan más de un deporte empleando subconsulta.
+
+4- Obtenga el mismo resultado empleando join.
+
+5- Buscamos todos los deportes que se dictan el mismo día que un determinado deporte (natacion): 
+
+6- Obtenga la misma salida empleando "join".
