@@ -1,0 +1,43 @@
+Subconsulta en lugar de una tabla
+
+Problema:
+
+Un club dicta clases de distintos deportes. En una tabla llamada "socios" guarda los datos de los 
+socios, en una tabla llamada "deportes" la información referente a los diferentes deportes que se 
+dictan y en una tabla denominada "inscriptos", las inscripciones de los socios a los distintos 
+deportes.
+Un socio puede inscribirse en varios deportes el mismo año. Un socio no puede inscribirse en el 
+mismo deporte el mismo año. Distintos socios se inscriben en un mismo deporte en el mismo año.
+
+1- Cree las tablas con las siguientes estructuras:
+
+ create table socios(
+  documento char(8) not null, 
+  nombre varchar(30),
+  domicilio varchar(30),
+  primary key(documento)
+ );
+ 
+ create table deportes(
+  codigo int auto_increment,
+  nombre varchar(20),
+  profesor varchar(15),
+  primary key(codigo)
+ );
+ 
+ create table inscriptos(
+  documento char(8) not null, 
+  codigodeporte smallint not null,
+  año char(4),
+  matricula char(1), --'s'=paga, 'n'=impaga
+  primary key(documento,codigodeporte,año)
+ );
+
+2- Ingrese algunos registros en las 3 tablas:
+
+3- Realice una consulta en la cual muestre todos los datos de las inscripciones, incluyendo el 
+nombre del deporte y del profesor.
+
+4- Utilice el resultado de la consulta anterior como una tabla derivada para emplear en lugar de una 
+tabla para realizar un "join" y recuperar el nombre del socio, el deporte en el cual está inscripto, 
+el año, el nombre del profesor y la matrícula.
