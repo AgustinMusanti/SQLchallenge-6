@@ -1,0 +1,33 @@
+Subconsulta (insert)
+
+Problema:
+
+Un comercio que vende artículos de librería y papelería almacena la información de sus ventas en una 
+tabla llamada "facturas" y otra "clientes".
+
+1-Cree las tablas (las borramos primero si ya existen):
+
+ create table clientes(
+  codigo int auto_increment,
+  nombre varchar(30),
+  domicilio varchar(30),
+  primary key(codigo)
+ );
+
+ create table facturas(
+  numero int not null,
+  fecha date,
+  codigocliente int not null,
+  total decimal(6,2),
+  primary key(numero)
+ );
+
+2-Ingrese algunos registros:
+
+3- El comercio necesita una tabla llamada "clientespref" en la cual quiere almacenar el nombre y 
+domicilio de aquellos clientes que han comprado hasta el momento más de 500 pesos en mercaderías. 
+
+4- Ingrese los registros en la tabla "clientespref" seleccionando registros de la tabla "clientes" y 
+"facturas".
+
+5- Vea los registros de "clientespref":
