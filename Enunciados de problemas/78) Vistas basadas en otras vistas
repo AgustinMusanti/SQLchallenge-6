@@ -1,0 +1,27 @@
+Vistas basadas en otras vistas
+
+Problema:
+
+Un profesor almacena el documento, nombre y la nota final de cada alumno de su clase en una tabla 
+llamada "alumnos".
+
+1- Elimine la tabla si existe y luego Créela  
+
+ create table alumnos(
+  documento char(8),
+  nombre varchar(30),
+  nota decimal(4,2),
+  primary key(documento)
+ );
+
+
+2-Ingrese algunos registros:
+
+3-Cree una vista que recupere el nombre y la nota de todos los alumnos
+
+4-Mostrar el resultado de llamar la vista en un comando SQL 'select'.
+
+5-Crear una vista que retorne el nombre y la nota de todos los alumnos aprobados (notas mayores
+iguales a 7) a partir de la vista anterior.
+
+6-Muestre la información que genera la vista.
