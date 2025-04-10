@@ -1,0 +1,36 @@
+Procedimientos almacenados (crear - ejecutar)
+
+Problema:
+
+Una empresa almacena los datos de sus empleados en una tabla llamada "empleados".
+
+1- Eliminamos la tabla, si existe y la creamos:
+
+ create table empleados(
+  documento char(8),
+  nombre varchar(20),
+  apellido varchar(20),
+  sueldo decimal(6,2),
+  cantidadhijos int,
+  seccion varchar(20),
+  primary key(documento)
+ );
+
+2- Ingrese algunos registros:
+
+3- Elimine el procedimiento llamado "pa_empleados_sueldo" si existe:
+
+4- Cree un procedimiento almacenado llamado "pa_empleados_sueldo" que seleccione los nombres, 
+apellidos y sueldos de los empleados.
+
+5- Ejecute el procedimiento creado anteriormente.
+
+6- Elimine el procedimiento llamado "pa_empleados_hijos" si existe:
+
+7- Cree un procedimiento almacenado llamado "pa_empleados_hijos" que seleccione los nombres, 
+apellidos y cantidad de hijos de los empleados con hijos.
+
+8- Ejecute el procedimiento creado anteriormente.
+
+9- Actualice la cantidad de hijos de algún empleado sin hijos y vuelva a ejecutar el procedimiento 
+para verificar que ahora si aparece en la lista.
