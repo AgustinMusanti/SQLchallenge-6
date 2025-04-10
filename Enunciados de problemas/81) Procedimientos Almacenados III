@@ -1,0 +1,27 @@
+Procedimientos almacenados (parámetros de salida)
+
+Problema:
+
+Una empresa almacena los datos de sus empleados en una tabla llamada "empleados".
+
+1- Eliminamos la tabla, si existe y la creamos:
+
+ create table empleados(
+  documento char(8),
+  nombre varchar(20),
+  apellido varchar(20),
+  sueldo decimal(6,2),
+  cantidadhijos int,
+  seccion varchar(20),
+  primary key(documento)
+ );
+
+2- Ingrese algunos registros:
+
+3- Elimine el procedimiento llamado "pa_seccion" si existe:
+
+4- Cree un procedimiento almacenado llamado "pa_seccion" al cual le enviamos el nombre de una 
+sección y que nos retorne el promedio de sueldos de todos los empleados de esa sección y el valor 
+mayor de sueldo (de esa sección)
+
+5- Ejecute el procedimiento creado anteriormente con distintos valores.
