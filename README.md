@@ -12,7 +12,8 @@ El desafío abarca más de 80 problemas de SQL, organizados en distintos niveles
 - Subconsultas y consultas anidadas
 - `JOINs` y combinaciones de tablas
 - Creación y manipulación de bases de datos
-- Procedimientos almacenados y funciones
+- Vistas
+- Procedimientos almacenados
 - Optimización de consultas y buenas prácticas
 
 ## 📂 Estructura del Repositorio
