@@ -1,4 +1,4 @@
-# Desafío SQL - Diego Moisset De Espanes
+# Desafío MySQL - Diego Moisset De Espanes
 
 Este repositorio contiene la resolución de un extenso desafío de SQL propuesto por el profesor Diego Moisset De Espanes, quien comparte ejercicios para aprender y practicar MySQL a través de su canal de YouTube.
 
